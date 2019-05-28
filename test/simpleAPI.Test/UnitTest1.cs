@@ -12,7 +12,7 @@ ValuesController controller = new ValuesController();
 public void GetReturnsMyName()
 {
 var returnValue =controller.Get(1);
-Assert.Equal("Laxmi Yadav", returnValue.Value);
+Assert.Equal("My Test", returnValue.Value);
 
 }
 
